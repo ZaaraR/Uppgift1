@@ -1,0 +1,36 @@
+
+def write_results_to_file():
+    pass
+
+def main():
+    while:
+        user guess = (input())
+
+        if user guess == correct
+            write_results_to_file
+
+        read_high_score()
+
+if __name__=="__main__":
+    pass
+
+from pathlib import Path
+
+def write_results_to_file(name: str, results: int):
+    file_path = Path("high_Score.txt")
+    string_to_write = name + " " + str(results) + "\n"
+    with open(file_path, 'a') as f:
+        f.write(string_to_write)
+
+write_results_to_file("Zara", 12)
+
+def print_high_score():
+    file_path = Path("high_score.txt")
+    with open(file_path, 'r') as f:
+        file_contents = f.readlines()
+    print(file_contents)
+    high_score_list = [("Zara", 10), ("Isabella", 3), ("Alexander", 8)]
+    high_score_list_sorted = sorted(high_score_list, key=lambda x: x[1])
+
+
+print_high_score
